@@ -18,6 +18,6 @@ while (input !== "quit" && input !== "q") {
     const deleted = todos.splice(index, 1);
     console.log(`Deleted todo: ${deleted}`);
   }
-  input = prompt("What would you like to b?");
+  input = prompt("What would you like to do?");
 }
 console.log("You quit the app");
